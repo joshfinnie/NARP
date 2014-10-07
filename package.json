@@ -1,0 +1,31 @@
+{
+  "name": "NARP",
+  "version": "0.0.1",
+  "description": "NARP - Node, Angular, Restify, and Postgres... a better MEAN Stack.",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshfinnie/NARP.git"
+  },
+  "keywords": [
+    "Node",
+    "Angular",
+    "Restify",
+    "PostgreSQL",
+    "MEAN"
+  ],
+  "author": "Josh Finnie <josh@jfin.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshfinnie/NARP/issues"
+  },
+  "homepage": "https://github.com/joshfinnie/NARP",
+  "dependencies": {
+    "pg": "^3.5.0",
+    "restify": "^2.8.3",
+    "sequelize": "^2.0.0-rc1"
+  }
+}
